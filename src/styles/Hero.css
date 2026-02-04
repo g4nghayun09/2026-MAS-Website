@@ -12,6 +12,11 @@
   align-items: flex-start;
   gap: 35px;
 }
+.heroRow {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+}
 .texts {
   font-family: "Orbitron-Black", sans-serif;
   font-size: 80px;
@@ -22,4 +27,28 @@
 }
 .texts > .orange {
   color: #ff6723;
+}
+.hero_apply {
+  margin-top: 30px;
+}
+.planet {
+  position: relative;
+  width: 660px;
+  height: 323px;
+  /* border: 1px solid yellow; */
+}
+.planet img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mars {
+  width: 290px;
+}
+.wR {
+  width: 600px;
+}
+.oR {
+  width: 380px;
 }

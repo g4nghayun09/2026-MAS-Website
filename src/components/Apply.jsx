@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styles/Apply.css"
 
-function Apply() {
+function Apply({ className }) {
   return (
-    <Link to="#">
-      <button>지원하기</button>
-    </Link>
+    <button className={className}>
+      지원하기
+    </button>
   );
 }
 

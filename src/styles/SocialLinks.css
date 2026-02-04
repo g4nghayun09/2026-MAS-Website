@@ -2,7 +2,7 @@
   align-items: center;
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: 26px;
 }
 .nav_links > li > img {
   height: 24px;

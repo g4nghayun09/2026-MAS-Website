@@ -19,10 +19,26 @@
   transition: 0.2s ease;
   border: 1px solid rgba(255, 103, 35, 0.7);
 }
-.coreValuesElement > img {
+.coreValuesElement > .background {
   width: 70px;
   height: 70px;
+  background-color: #181818;
+  border-radius: 14px;
   margin-bottom: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coreValuesElement:hover > .background {
+  transition: 0.2s ease;
+  background-color: #ff6723;
+}
+.coreValuesElement:hover > .background > img {
+  filter: brightness(0) invert(0.95);
+}
+.coreValuesElement > .background > img {
+  width: 43px;
+  height: 43px;
 }
 .coreValuesElement > h3 {
   font-family: "Orbitron-Bold";
