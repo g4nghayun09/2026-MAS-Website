@@ -24,7 +24,7 @@ function OurPrize() {
             더 많은 수상내역 보기<img src={nextButtonIMG} alt="" className="nextButton"/></button>    
         </div>
 
-        <div className="picture">
+        <div className="ourpPicture">
           <img src={everyPictureIMG} alt="" className="ourprizePicture"/>
         </div>  
         

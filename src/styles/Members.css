@@ -1,0 +1,14 @@
+.Year {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.member_cards {
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+    margin-top: 43px;
+}

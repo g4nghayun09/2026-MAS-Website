@@ -50,6 +50,7 @@ body {
 .explanation {
     margin-top: 19px;
     background-color: transparent;
+    width: 340px;
 }
 /* 마스 상 더보기 버튼 css------------------ */
 .morePrize{
@@ -95,8 +96,8 @@ body {
     transition: 0.2s ease;
 }
 /* 마스 단체 사진 css------------------ */
-.picture {
-    margin-left: 186px;
+.ourpPicture {
+    margin-left: 130px;
     margin-top: 222px;
 }
 

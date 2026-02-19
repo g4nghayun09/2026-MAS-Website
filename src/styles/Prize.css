@@ -5,41 +5,12 @@
     font-family: "Pretendard-Medium";
     src: url("2026-MAS-Website/fonts/Pretendard/Pretendard-Medium.otf");
 }
-/* 이미지 변수 선언 */
-:root {
-    --prize-bg: url("/prize_orange.svg");
-}
 
 body {
     margin: 0;
     padding: 0;
 }
-/* 배너 부분 css----------------------------- */
-.PrizeSection {
-    height: 320px;
 
-    background-image: var(--prize-bg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.PRIZE {
-    font-size: 64px;
-    font-family: "Orbitron-ExtraBold", sans-serif;
-}
-
-.explanation {
-    font-size: 17px;
-    font-family: "Pretendard-Medium", sans-serif;
-
-    color: #C3C3C3;
-}
 /* 년도 버튼 부분 css------------------------- */
 .Year {
     display: flex;
